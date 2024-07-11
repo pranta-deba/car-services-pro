@@ -37,7 +37,7 @@ const Navbar = () => {
                 <a className="text-2xl hover:text-[#FF3811] cursor-pointer"><BsCart4 /></a>
                 <a className="text-2xl hover:text-[#FF3811] cursor-pointer"><IoSearchOutline /></a>
                 {/* <a className="btn border-2 border-[#FF3811] text-[#FF3811]  bg-transparent hover:bg-[#FF3811] hover:text-white text-lg font-semibold">Appointment</a> */}
-                <Link href={"/sign_in"} className="btn border-2 border-[#FF3811] text-[#FF3811]  bg-transparent hover:bg-[#FF3811] hover:text-white text-lg font-semibold">Sign in</Link>
+                <Link href={"/login"} className="btn border-2 border-[#FF3811] text-[#FF3811]  bg-transparent hover:bg-[#FF3811] hover:text-white text-lg font-semibold">Sign in</Link>
                 <div className="dropdown dropdown-end">
                     <div tabIndex={0} role="button" className="m-1"><div className="avatar">
                         <div className="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
